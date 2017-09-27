@@ -204,6 +204,23 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201709270016252_InitialModel.cs" />
+    <Compile Include="Migrations\201709270016252_InitialModel.Designer.cs">
+      <DependentUpon>201709270016252_InitialModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709270041140_InsertBD.cs" />
+    <Compile Include="Migrations\201709270041140_InsertBD.Designer.cs">
+      <DependentUpon>201709270041140_InsertBD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709270106592_InsertBDAlunos.cs" />
+    <Compile Include="Migrations\201709270106592_InsertBDAlunos.Designer.cs">
+      <DependentUpon>201709270106592_InsertBDAlunos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709270108451_InsertBDAlunosAlunos.cs" />
+    <Compile Include="Migrations\201709270108451_InsertBDAlunosAlunos.Designer.cs">
+      <DependentUpon>201709270108451_InsertBDAlunosAlunos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Aluno.cs" />
     <Compile Include="Models\Faixa.cs" />
@@ -290,6 +307,20 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201709270016252_InitialModel.resx">
+      <DependentUpon>201709270016252_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709270041140_InsertBD.resx">
+      <DependentUpon>201709270041140_InsertBD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709270106592_InsertBDAlunos.resx">
+      <DependentUpon>201709270106592_InsertBDAlunos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709270108451_InsertBDAlunosAlunos.resx">
+      <DependentUpon>201709270108451_InsertBDAlunosAlunos.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
