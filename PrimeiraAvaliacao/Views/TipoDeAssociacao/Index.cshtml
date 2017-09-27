@@ -1,0 +1,27 @@
+﻿@model IEnumerable<PrimeiraAvaliacao.Models.TipoDeAssociacao>
+
+@{
+    ViewBag.Title = "Tipo De Associação";
+}
+
+<h2>Tipos de Associação</h2>
+
+<table class="table-bordered table-hover" width="100%">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Perído</th>
+            <th>Mensalidade</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var tipo in Model)
+        {
+            <tr>
+                <td>@Html.ActionLink(@tipo.Nome, "Details", new { tipo.Id })</td>
+                <td>@tipo.Periodo mês(es)</td>
+                <td>R$ @tipo.Mensalidade</td>
+            </tr>
+        }
+    </tbody>
+</table>

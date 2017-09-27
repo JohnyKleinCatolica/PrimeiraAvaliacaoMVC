@@ -1,0 +1,16 @@
+﻿@model PrimeiraAvaliacao.Models.Aluno
+
+
+@{
+    ViewBag.Title = "Detalhes";
+}
+
+<h2>Detalhes</h2>
+<ul>
+    <li> <b>Nome:</b>  @Model.Nome</li>
+    <li> <b>Id: </b> @Model.Id</li>
+    <li> <b>Cpf: </b> @Model.CPF</li>
+    <li> <b>Faixa: </b> @Model.Faixa.Nome</li>
+    <li> <b>Tipo de Associação: </b> @Model.TipoDeAssociacao.Nome</li>
+</ul>
+

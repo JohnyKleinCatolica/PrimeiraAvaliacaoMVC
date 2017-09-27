@@ -1,0 +1,25 @@
+﻿@model IEnumerable<PrimeiraAvaliacao.Models.Faixa>
+
+@{
+    ViewBag.Title = "Faixas";
+}
+
+<h2>Faixas</h2>
+
+<table class="table-bordered table-hover" width="100%">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Grau</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var faixa in Model)
+        {
+            <tr>
+                <td>@Html.ActionLink(@faixa.Nome, "Details", new { faixa.Id })</td>
+                <td>@faixa.Grau</td>
+            </tr>
+        }
+    </tbody>
+</table>
