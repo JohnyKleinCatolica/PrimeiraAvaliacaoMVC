@@ -11,6 +11,7 @@ namespace PrimeiraAvaliacao.Controllers
     public class AlunoController : Controller
     {
         private ApplicationDbContext _context;
+        
 
         public AlunoController() {
             _context = new ApplicationDbContext();
@@ -29,7 +30,7 @@ namespace PrimeiraAvaliacao.Controllers
                 new Aluno {Nome="Rafael", CPF = "45421254", Faixa  = new Faixa {Nome = "Verde", Grau = "40k" }, 
                     TipoDeAssociacao = new TipoDeAssociacao {Nome = "Mensal", Mensalidade = 20, Periodo = 12 }, Id = 2 }
             };*/
-            IEnumerable<Aluno> alunos = _context.Alunos.ToList();
+            IEnumerable<Aluno> alunos = _context.Alunos.Include(c => c.Faixa).Include(c => c.TipoDeAssociacao).ToList();
             return alunos;
         }
 

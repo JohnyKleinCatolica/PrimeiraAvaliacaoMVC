@@ -248,3 +248,4 @@ C:\Users\johny.klein\Documents\Visual Studio 2015\Projects\PrimeiraAvaliacao\Pri
 C:\Users\johny.klein\Documents\Visual Studio 2015\Projects\PrimeiraAvaliacao\PrimeiraAvaliacaoMVC\PrimeiraAvaliacao\obj\Debug\PrimeiraAvaliacao.Migrations.InsertBD.resources
 C:\Users\johny.klein\Documents\Visual Studio 2015\Projects\PrimeiraAvaliacao\PrimeiraAvaliacaoMVC\PrimeiraAvaliacao\obj\Debug\PrimeiraAvaliacao.Migrations.InsertBDAlunos.resources
 C:\Users\johny.klein\Documents\Visual Studio 2015\Projects\PrimeiraAvaliacao\PrimeiraAvaliacaoMVC\PrimeiraAvaliacao\obj\Debug\PrimeiraAvaliacao.Migrations.InsertBDAlunosAlunos.resources
+C:\Users\johny.klein\Documents\Visual Studio 2015\Projects\PrimeiraAvaliacao\PrimeiraAvaliacaoMVC\PrimeiraAvaliacao\obj\Debug\PrimeiraAvaliacao.csprojResolveAssemblyReference.cache
